@@ -3,7 +3,7 @@
 - **src** - Paket för källkoden.
 - **test** - Testpaket för att testa olika aspekter av källkods- paketen och modulerna inklusive logik och funktionalitet.
 - **main.py** - Huvudscript som importerar och exekverar relevanta procedurer som är definerade i källkoden.
-- **__init__.py** - Obligatorisk kontruktorliknande konfigureringsmekanism för ett paket. Ett paket känns igen genom att ha en **__init__.py** fil lokaliserad i rotfoldern.
+- **__init__.py** - Obligatorisk kontruktorliknande konfigureringsmekanism för ett paket. Ett paket känns igen genom att ha en **\_\_init\_\_.py** fil lokaliserad i rotfoldern.
 
 ### Ordlista
 **Standardbibliotek** - Den samlade mängden definitioner och specifikationer som utgör grunden för ett programspråk.
