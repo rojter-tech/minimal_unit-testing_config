@@ -8,7 +8,7 @@
 
 ### Ordlista
 - **Standardbibliotek** - Den samlade mängden definitioner och specifikationer som utgör grunden för ett programspråk.
-- **Script** - Fil med körbar kod som typiskt endast är beroende av att ha tillgång till ett standardbibliotek via systemsökvägar, men i övrigt vara självständigt.
+- **Skript** - Fil med körbar kod som typiskt endast är beroende av att ha tillgång till ett standardbibliotek via systemsökvägar, men i övrigt vara självständigt.
 - **Modul** - Fil med körbar kod som är tänkt att vara en referens för andra moduler eller skript som är lokaliserade någon annanstans.
 - **Paket** - En folder som innehåller en samling av moduler och skript som på olika sätt hör ihop, som faktiskt referens eller konceptuellt. Ett paket kan även innehålla andra paket.
 - **Bibliotek** - Samlingsord för alla paket, moduler och skript som ingår i ett projekt. Biblioteket utgör typiskt sett hela källkoden för ett projekt.
