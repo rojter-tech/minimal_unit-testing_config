@@ -4,6 +4,7 @@
 - **test** - Testpaket för att testa olika aspekter av källkods- paketen och modulerna inklusive logik och funktionalitet.
 - **main.py** - Huvudscript som importerar och exekverar relevanta procedurer som är definerade i källkoden.
 - **\_\_init\_\_.py** - Obligatorisk kontruktorliknande konfigureringsmekanism för ett paket. Ett paket känns igen genom att ha en **\_\_init\_\_.py** fil lokaliserad i rotfoldern.
+- **\_\_main\_\_.py** - Valbar exeveringsmekanism för att kunna "köra ett paket". Typiskt handlar det om inledande standardrutiner som alltid är tänkt att köras vid "uppstart" av en exekveringskedja som typiskt utgör ett självständigt program. Exempelvis kan det röra sig om att leda användaren till en användarmeny som skulle kunna vara en del av de standardrutiner som alltid körs när ett program startas.
 
 ### Ordlista
 - **Standardbibliotek** - Den samlade mängden definitioner och specifikationer som utgör grunden för ett programspråk.
