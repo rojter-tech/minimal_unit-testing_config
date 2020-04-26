@@ -22,7 +22,7 @@
                                      testmodul.
                                      Även andra så kallade hjälpmoduler kan skapas i test om man så 
                                      önskar. En modul är alltid en fil. Ett paket är alltid en mapp.
-
+```
 
 - **src** - Paket för källkoden.
 - **test** - Testpaket för att testa olika aspekter av källkods- paketen och modulerna inklusive logik och funktionalitet.
