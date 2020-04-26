@@ -36,7 +36,7 @@
 - **Skript** - Fil med körbar kod som typiskt endast är beroende av att ha tillgång till ett standardbibliotek via systemsökvägar, men i övrigt vara självständigt.
 - **Modul** - Fil med körbar kod som är tänkt att vara en referens för andra moduler eller skript som är lokaliserade någon annanstans.
 - **Paket** - En folder som innehåller en samling av moduler och skript som på olika sätt hör ihop, som faktiskt referens eller konceptuellt. Ett paket kan även innehålla andra paket.
-- **Bibliotek** - Samlingsord för alla paket, moduler och skript som ingår i ett projekt. Biblioteket utgör typiskt sett hela källkoden för ett projekt.
+- **Bibliotek** - Samlingsord för alla paket, moduler och skript som ingår i ett eller flera projekt. Biblioteket utgör typiskt sett hela källkoden för ett projekt.
 - **Enhetstestning** - Ett enskilt test som syftar till att testa att någon logik eller sammanhängande funktionalitet är korrekt definerad i källkoden. Ett enhetstest ska gå snabbt att exekvera (typiskt mätt i  ms). Ett test som är beroende av mekanismer och processer som ligger utanför det lokala projektet eller standardbilbioteket (exempelvis ett serveranrop) är tekniskt sett inte ett enhetstest.
 
 ### Överblick
