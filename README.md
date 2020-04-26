@@ -25,8 +25,9 @@
 ```
 
 - **src** - Paket för källkoden.
+- **src/utilities** - Ytterligare ett paket i paketet src.
 - **test** - Testpaket för att testa olika aspekter av källkods- paketen och modulerna inklusive logik och funktionalitet.
-- **main.py** - Huvudskript som importerar och exekverar relevanta procedurer som är definerade i källkoden.
+- **external_main.py** - Huvudskript som importerar och exekverar relevanta procedurer som är definerade i källkoden externt.
 - **\_\_init\_\_.py** - Obligatorisk kontruktorliknande konfigureringsmekanism för att "initiera" ett paket. Ett paket känns igen genom att ha en **\_\_init\_\_.py** fil lokaliserad i rotfoldern. Typisk användning av **\_\_init\_\_.py** är att importera referenser som är nödvändiga eller önskvärda. Alla referenser som importeras i **\_\_init\_\_.py** importeras automatiskt när paketet självt importeras.
 - **\_\_main\_\_.py** - Valbar exeveringsmekanism för att kunna "köra ett paket". Typiskt handlar det om inledande standardrutiner som alltid är tänkt att köras vid "uppstart" av en exekveringskedja som typiskt utgör ett självständigt program. Exempelvis kan det röra sig om att leda användaren till en användarmeny som skulle kunna vara en del av de standardrutiner som alltid körs när ett program startas.
 
