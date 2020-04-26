@@ -1,5 +1,29 @@
 # Mall för paket, modul och testning
 
+## Projektets organisering
+```
+├── src                           <- Källkodspaketet, vanlig förkortning för "source".
+     ├── utilities                <- Ett "paket i paketet", kan vara ett bra upplägg om man har 
+                                     väldigt mycket kod som ska hållas isär med övrig källkod.
+         ├── __init__.py          <- För att konfigurera "utilities". Detta är nödvändigt för att göra 
+                                     paketet helt självständigt.
+         ├── __main__.py          <- Om man vill exekvera något särskilt när man kör "utilities" direkt.
+
+         └── useful_functions.py  <- Modulen för paketet utilities.
+     ├── __init__.py              <- För att konfigurera "src". Detta är nödvändigt för att göra 
+                                     paketet helt självständigt.
+     └── __main__.py              <- Om man vill exekvera något särskilt när man kör "src" direkt.
+├── test                          <- Testpaketet, namnet "test" är default för att unittest ska
+                                     hitta testmodulerna som defineras här inne.
+     ├── __init__.py              <- Koden här körs obligatoriskt varje gång test importeras eller körs.
+                                     Särkilt när enhetstester ska genomföras.
+     └── test_import.py           <- Testmodul för att köra enhetstester relaterade till logik i källkoden. 
+                                     Prefixet "test_" används för att unittest ska förstå vad som är en
+                                     testmodul.
+                                     Även andra så kallade hjälpmoduler kan skapas i test om man så 
+                                     önskar. En modul är alltid en fil. Ett paket är alltid en mapp.
+
+
 - **src** - Paket för källkoden.
 - **test** - Testpaket för att testa olika aspekter av källkods- paketen och modulerna inklusive logik och funktionalitet.
 - **main.py** - Huvudskript som importerar och exekverar relevanta procedurer som är definerade i källkoden.
